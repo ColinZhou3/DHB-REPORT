@@ -5,7 +5,7 @@ import re
 import plotly.express as px
 
 st.set_page_config(page_title="Sales & Price Trend (Fast)", page_icon="📈", layout="wide")
-st.title("📈 Sales & Price Trend Analysis (Fast / Cloud-friendly)")
+st.title("📈 Sales & Price Trend Analysis")
 st.caption("This version avoids melting the whole file. It filters first, then reshapes only the selected products + selected date range.")
 
 # -------------------------
