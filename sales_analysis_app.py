@@ -5,7 +5,7 @@ import re
 import plotly.express as px
 
 st.set_page_config(page_title="Sales & Price Trend (Fast)", page_icon="📈", layout="wide")
-st.title("📈 Sales & Price Trend Analysis (Fast / Cloud-friendly)")
+st.title("📈 Sales & Price Trend Analysis")
 st.caption("Filter first, then reshape only selected products + selected date range (much faster on Streamlit Cloud).")
 
 BASE_ID_COLS = ["PRODUCT_NAME","PRODUCT_CODE","PRODUCT_GROUP","FORMAT_NAME","STORE_NAME","STORE_REGION","STORE_CODE"]
